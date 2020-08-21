@@ -139,7 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dungeonGenerator.cpp" />
+    <ClCompile Include="framework.cpp" />
+    <ClCompile Include="graphicEngine.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="monster.cpp" />
+    <ClCompile Include="monsterController.cpp" />
+    <ClCompile Include="pathfinder.cpp" />
+    <ClCompile Include="player.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dungeonGenerator.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="graphicEngine.h" />
+    <ClInclude Include="monster.h" />
+    <ClInclude Include="monsterController.h" />
+    <ClInclude Include="pathfinder.h" />
+    <ClInclude Include="player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,6 +1,6 @@
 #pragma once
 
-class Framework
+class DungeonGenerator
 {
 private:
 
